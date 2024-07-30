@@ -1,1 +1,48 @@
-Escreva aqui sua resposta.
+Primeiro passo buscar informaçoes dos clientes por meio de perguntas, onde utilizarei um web site de compras e colocarei uma pagina com cadastro e perguntas para meu cliente como por exemplo Perguntas como nome: Email: Idade: Valor: 
+como minha pagina estara ligada com o banco de dados  pegarei essas informaçoes qeu foram dadas e logo em seguida buscar no meu banco de dados, onde tratarei desses dados e logo em seguida terei 
+Claro, aqui está um fluxo detalhado para criar uma aplicação web que funcione como um simulador de compras, com foco nas três etapas que você mencionou: coleta de informações, busca no banco de dados e tratamento dos dados.
+Simulaçao de compras 
+
+1. Coleta de Informações do Cliente
+
+meu objetivo Capturar dados necessários para simular o processo de compra.
+site web de boas vindas
+   - Apresentar uma mensagem de boas-vindas e uma breve explicação sobre o simulador de compras.
+   - Botão para iniciar a simulação.
+
+2. fazerei um comentario de coleta 
+   - Informações Pessoais do cliente 
+     - Nome completo
+     - Endereço de e-mail
+     - valor 
+   - Compra:
+     - Categoria de produtos preferidos 
+     - Faixa de preço
+   - **Histórico de Compras:**
+     - Perguntar se o cliente já comprou produtos similares antes
+     - Se sim, quais produtos e onde comprou
+
+3. **Validação de Dados:**
+   - Verificar se todos os campos obrigatórios foram preenchidos.
+   - Confirmar a validade do endereço de e-mail e do número de telefone (se fornecido).
+
+4. Confirmação e Envio:
+   - Mostrar um resumo das informações fornecidas.
+   - Botão para enviar as informações e prosseguir para a próxima etapa.
+
+ 5. Busca no Banco de Dados
+
+Objetivo Recuperar informações relevantes com base nas preferências e histórico do cliente.
+
+1. **Conexão com o Banco de Dados:
+   Estabelecer uma conexão segura com o banco de dados onde as informações de produtos e histórico de compras estão armazenadas.
+
+2. Consultas ao Banco de Dados:
+   Consulta por Categoria e Faixa de Preço:**
+     - Executar uma consulta para buscar produtos que se encaixem nas categorias e faixas de preço preferidas pelo cliente.
+   - **Consulta por Histórico de Compras:**
+     - Buscar produtos similares aos que o cliente comprou anteriormente, se aplicável.
+   - Filtragem e Classificação:
+     - Filtrar os produtos com base em relevância, popularidade, e avaliações.
+     - Classificar os resultados para melhor apresentação.
+
